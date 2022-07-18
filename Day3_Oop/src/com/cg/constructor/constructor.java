@@ -1,5 +1,6 @@
 package com.cg.constructor;
 
+//constructor
  class A 
  {
 	 

@@ -1,5 +1,6 @@
 package com.cg.constructor;
 
+//Parameterised_Constructor
 class B
 {
 	

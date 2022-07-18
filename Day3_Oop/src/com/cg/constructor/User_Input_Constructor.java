@@ -1,35 +1,28 @@
-package com.cg.constructor;
+/*package com.cg.constructor;
+// User_Input_Constructor
 
-import java.util.Scanner;
-
-class C
+class c
 {
-	public
-	String car,car1;
-	int color,color1;
-	
-	C(String car, int color)
+	int rollno;
+	String name;
+	c(int rollno,String name)
 	{
-		 car1= car;
-		 color1=color;
+		this.rollno=rollno;
+		this.name=name;
 	}
-	void display()
+	void print()
 	{
-		 System.out.println( car+"  "+color1);
+		System.out.println("Roll No is:"+rollno+"and Name is:"+name);
 	}
 }
 public class User_Input_Constructor {
 
 	public static void main(String[] args) {
-		Scanner s=new Scanner(System.in);
-		System.out.println("Enter Vehicle:");
-		String car=s.nextLine();
-		System.out.println("Enter Color:");
-		int color=s.nextInt();
-		C c1 = new C(car,color);
-		c1.display();
-		
-		s.close();
-	}
+		c obj=new c(25,"Vaibhav");
+		c obj1=new c(12,"Chetan");
+		obj.print();
+		obj1.print();
 
-}
+	}
+	}
+	*/
