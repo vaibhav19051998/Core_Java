@@ -8,13 +8,14 @@ package com.cg.constructor;
 	 A()
 	 
 	 {
-		System.out.println("Welcom to OOPs  ");
+		System.out.println("Welcome to OOPs  ");
 	}
 }
 public class constructor
 {
 	public static void main(String[] args)
 	{
+		@SuppressWarnings("unused")
 		A a=new A();
 	}
 

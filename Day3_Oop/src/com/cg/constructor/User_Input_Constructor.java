@@ -1,4 +1,4 @@
-/*package com.cg.constructor;
+package com.cg.constructor;
 // User_Input_Constructor
 
 class c
@@ -12,7 +12,7 @@ class c
 	}
 	void print()
 	{
-		System.out.println("Roll No is:"+rollno+"and Name is:"+name);
+		System.out.println("Roll No is:"+rollno+"  and Name is:"+name);
 	}
 }
 public class User_Input_Constructor {
@@ -25,4 +25,4 @@ public class User_Input_Constructor {
 
 	}
 	}
-	*/
+

@@ -11,6 +11,7 @@ public class Pre_Post_Increment_Operator {
 		int b=a1.nextInt();
 
 		int x=a++;
+		@SuppressWarnings("unused")
 		int y=++b;
 		int result=x+a;
 		System.out.println(result);

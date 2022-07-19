@@ -17,6 +17,7 @@ public class Parameterised_Constructor {
 	{
 		int n=8;
 		String vehicle="CAR";
+		@SuppressWarnings("unused")
 		B a=new B(n,vehicle);
 	}
 
