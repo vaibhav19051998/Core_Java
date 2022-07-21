@@ -1,5 +1,5 @@
 package com.cg.thiskeyword;
-
+// Using Return Class Instance...
 class Instance
 {
 	int a;
@@ -10,7 +10,8 @@ class Instance
 }
 public class ReturnClassInstance {
 
-	public static void main(String[] args) {
+	public static void main(String[] args) 
+	{
 		int a=20;
 		Instance c=new Instance();
 		System.out.println(c.Id(a));

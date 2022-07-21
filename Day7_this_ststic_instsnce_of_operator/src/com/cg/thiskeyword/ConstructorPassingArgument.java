@@ -24,7 +24,7 @@ public class ConstructorPassingArgument {
 	public static void main(String[] args) {
 		
 		Arg obj = new Arg();
-		obj.setdata(10,25);
+		obj.setdata(20,15);
 		obj.getdata();
 	}
 

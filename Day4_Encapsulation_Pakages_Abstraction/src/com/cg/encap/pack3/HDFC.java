@@ -4,7 +4,8 @@ public class HDFC {
 	
 	private int ATM_PIN;
 
-	public int getATM_PIN() {
+	public int getATM_PIN() 
+	{
 		return ATM_PIN;
 	}
 
