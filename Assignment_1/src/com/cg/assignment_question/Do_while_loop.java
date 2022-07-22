@@ -12,7 +12,7 @@ public class Do_while_loop {
 			}
 			System.out.println();
 		}
-		while(n!=20);
+		while(n !=20);
 	}
 
 }
