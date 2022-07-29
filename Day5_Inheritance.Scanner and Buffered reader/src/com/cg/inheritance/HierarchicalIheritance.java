@@ -21,7 +21,7 @@ class Tiger extends Animal
 {
 	void Name2()
 	{
-		System.out.println(" Aladin ");
+		System.out.println(" Wild Animal ");
 	}
 }
 /*class cat extends Animal

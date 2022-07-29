@@ -4,7 +4,7 @@ class A
 {
 	A()
 	{
-		System.out.println("Hey There");
+		System.out.println("Hey WhatsApp");
 		
 	}
 }
