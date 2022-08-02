@@ -11,10 +11,10 @@ public class DBCconnect {
 	public static void main(String[] args) throws SQLException {
 		String dbDriver="com.mysql.cj.jdbc.Driver";
 		// to connect eclipse with mysql server
-		String dbURL= "jdbc:mysql://127.0.0.1//3306/student";
+		String dbURL= "jdbc:mysql://127.0.0.1:3306/EMPLOYEE";
 		String dbUsername="root";
-		String dbpassword="Raut@1425";
-		String query="SELECT*FROM student_data";
+		String dbpassword="Raut@1452";
+		String query="SELECT * FROM employee_details";
 		// if any exception will occur in driver class that will handle by using catch block
 		//if call name of the driver is incorrect, then it will throw an exception
 		try
