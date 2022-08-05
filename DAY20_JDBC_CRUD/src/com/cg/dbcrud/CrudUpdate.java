@@ -19,7 +19,7 @@ public class CrudUpdate {
 
 		ps.setString(1,"JHONY");
 		ps.setString(2,"JHONY@gmail.com");
-		ps.setInt(3, 11);
+		ps.setInt(3, 15);
 	
 		int r=ps.executeUpdate();
 		//if row is greater than zero means at least some rows is there

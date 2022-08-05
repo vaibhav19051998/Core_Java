@@ -28,7 +28,7 @@ public class CrudSelect {
 			String email=r.getString(3);
 			String password=r.getString(4);
 			
-			String output="Emp.Id:%d %s%s %s";
+			String output="Emp.Id:%d %s %s %s";
 			System.out.println("String.format(output,id,name,email,password)");
 		
 		}
