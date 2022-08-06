@@ -23,8 +23,8 @@ public class Example3 {
 		Scanner s=new Scanner(System.in);
 		int Rollno=s.nextInt();
 		String Name=s.nextLine();
-		C obj=new C(Rollno,Name);
-		C obj1=new C(Rollno,Name);
+		C obj=new C(Rollno, Name);
+		C obj1=new C(Rollno, Name);
 		obj.print();
 		obj1.print();
 		s.close();

@@ -1,20 +1,17 @@
 package com.cg.inheritance;
 
-class Animal{
+class Animal
+{
 	void Name()
 	{
 		System.out.println("Animal name is Lion");
-	}
-
-	
-		
-	}
-
+	}	
+}
 class Dog extends Animal
 {
 	void Name1()
 	{
-		System.out.println(" Happy ");
+		System.out.println(" Pet Animal ");
 	}
 }
 class Tiger extends Animal

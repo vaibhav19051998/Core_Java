@@ -22,7 +22,5 @@ public class User_Input_Constructor {
 		c obj1=new c(12,"Chetan");
 		obj.print();
 		obj1.print();
-
 	}
-	}
-
+}

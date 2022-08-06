@@ -12,7 +12,7 @@ class Vehicle
 	 public String brand = "Renult";
 	 void brand()
 	 {
-		 System.out.println("Breand is:"+brand);
+		 System.out.println("Brand is:"+brand);
 	 }
  }
  class KWID extends renault

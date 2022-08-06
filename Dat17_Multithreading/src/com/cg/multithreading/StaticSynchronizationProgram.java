@@ -3,7 +3,7 @@ package com.cg.multithreading;
 
 class Test2
 {
-	public static synchronized void displat()
+	public static synchronized void display()
 	{
 		System.out.println("Current Thread" + Thread.currentThread().getName());
 		for(int i=0;i<5;i++)
@@ -36,10 +36,10 @@ class value implements Runnable
 	@SuppressWarnings("static-access")
 	public void run()
 	{
-		val.displat();
+		val.display();
 	}
 }
-public class StaticSynchronizationProgrsm {
+public class StaticSynchronizationProgram {
 
 	@SuppressWarnings("unused")
 	public static void main(String[] args) {

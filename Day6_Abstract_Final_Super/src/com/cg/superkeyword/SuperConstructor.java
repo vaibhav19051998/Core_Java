@@ -1,14 +1,11 @@
 package com.cg.superkeyword;
-
-//super keyword it is used to invoke parent class constructor
+//super keyword: it is used to invoke parent class constructor
 class Flower
 {
 	Flower()
     {
 		System.out.println("Flower");
-		
-	}
-	
+	}	
 }
 class Rose extends Flower
 {

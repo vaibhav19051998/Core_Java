@@ -13,7 +13,7 @@ class Bike {
 	 
 	 public int Speed = 70;
 	 void average() {
-		 System.out.println("Speed");
+		 System.out.println("Average of bike is more");
 	 }
  }
 

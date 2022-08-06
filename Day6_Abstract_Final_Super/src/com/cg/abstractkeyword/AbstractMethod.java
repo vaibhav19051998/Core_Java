@@ -4,7 +4,6 @@ abstract class Car
 {
 	abstract void display();
 }
-
 class Audi extends Car
 {
 	void display()
