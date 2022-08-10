@@ -1,8 +1,9 @@
 package com.cg.exception;
-//throws keyword is used to declare an exception
+
 import java.io.IOException;
 
-public class ThrowsKeyword {
+public class ThrowsKeyword 
+{
 	static void display(int x)throws IOException,ClassNotFoundException
 	{
 		if(x==5)

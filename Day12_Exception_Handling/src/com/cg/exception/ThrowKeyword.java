@@ -1,7 +1,7 @@
 package com.cg.exception;
-//program on throw keyword:
-//throw keyword is used to throw an exception explicitly
-public class ThrowKeyword {
+
+public class ThrowKeyword 
+{
 	public static void validate(int age)
 	{
 		if(age<21 || age>27)

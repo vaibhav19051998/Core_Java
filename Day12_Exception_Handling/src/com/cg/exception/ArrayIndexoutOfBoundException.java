@@ -1,7 +1,7 @@
 package com.cg.exception;
-//Program to handle the Exception by using try & catch block
-public class ArrayIndexoutOfBoundException {
 
+public class ArrayIndexoutOfBoundException
+{
 	public static void main(String[] args) 
 	{
 		System.out.println("First line");
@@ -23,6 +23,5 @@ public class ArrayIndexoutOfBoundException {
         System.out.println("Fourth element successfully displayed!");
 		}
 	
-	}
-
+}
 

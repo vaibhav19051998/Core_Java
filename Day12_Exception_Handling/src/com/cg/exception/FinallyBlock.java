@@ -1,9 +1,9 @@
 package com.cg.exception;
-// Program on finally Block
+
 import java.util.Scanner;
 
-public class FinallyBlock {
-
+public class FinallyBlock 
+{
 	public static void main(String[] args) {
 		Scanner s=new Scanner(System.in);
 		int x=s.nextInt();
@@ -26,6 +26,5 @@ public class FinallyBlock {
 		System.out.println("M-21 Batch-Angular");
 		s.close();
 	}
-	
 
 }
